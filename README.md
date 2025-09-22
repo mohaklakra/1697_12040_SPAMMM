@@ -50,22 +50,29 @@ It leverages Artificial Intelligence, Machine Learning, and Hydrogeological data
 **🔧 Installation**
 
 **Clone the repository**
+```bash
 -git clone https://github.com/your-username/jal-sandhana.git
 -cd jal-sandhana
+```
 
 **Create virtual environment**
+````bash
 -python -m venv venv
 -source venv/bin/activate   # Linux/Mac
 -venv\Scripts\activate      # Windows
+````
 
 **Install dependencies**
+```bash
 -pip install -r requirements.txt
+```
 
 **▶️ Run the Project**
 
-**Start the API server**
+Start the API server
+```bash
 uvicorn src.api.main:app --reload
-
+```
 ---
 
 ## ⭐ Acknowledgments
